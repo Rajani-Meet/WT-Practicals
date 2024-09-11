@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 12</title>
+    <link rel="stylesheet" href="pr_12.css">
+</head>
+<body>
+    <center>
+    <h1>Interactive Quiz</h1>
+    </center>
+    <form id="quiz-form">
+        <div class="grid">
+        <div class="card">
+        <div class="question">
+            <p>1. What is the capital of india?</p>
+            <input type="radio" id="q1a" name="q1" value="Gujarat">
+            <label for="q1a">Gujarat</label><br>
+            <input type="radio" id="q1b" name="q1" value="Delhi">
+            <label for="q1b">Delhi</label><br>
+            <input type="radio" id="q1c" name="q1" value="Bihar">
+            <label for="q1c">Bihar</label>
+        </div>
+        </div>
+        <div class="card">
+        <div class="question">
+            <p>2. What is 2 + 2?</p>
+            <input type="radio" id="q2a" name="q2" value="3">
+            <label for="q2a">3</label><br>
+            <input type="radio" id="q2b" name="q2" value="4">
+            <label for="q2b">4</label><br>
+            <input type="radio" id="q2c" name="q2" value="5">
+            <label for="q2c">5</label>
+        </div>
+        </div>
+        <div class="card">
+            <div class="question">
+                <p>3. What is the smallest header in HTML by default?</p>
+                <input type="radio" id="q3a" name="q3" value="h1">
+                <label for="q3a">h1</label><br>
+                <input type="radio" id="q3b" name="q3" value="h6">
+                <label for="q3b">h6</label><br>
+                <input type="radio" id="q3c" name="q3" value="h3">
+                <label for="q3c">h3</label>
+        </div>
+        </div>
+        <div class="card">
+            <div class="question">
+                <p>4. HTML files are saved by default with the extension?</p>
+                <input type="radio" id="q4a" name="q4" value=".html">
+                <label for="q4a">.html</label><br>
+                <input type="radio" id="q4b" name="q4" value=".h">
+                <label for="q4b">.h</label><br>
+                <input type="radio" id="q4c" name="q4" value=".txt">
+                <label for="q4c">.txt</label>
+            </div>
+        </div>
+        </div>
+    
+        <button type="button" id="submit-btn">Submit</button>
+    </form>
+    <div id="result" class="result"></div>
+
+    <script src="pr_12.js"></script>
+</body>
+</html>
