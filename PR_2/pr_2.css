@@ -1,0 +1,22 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #f1f9c9;
+    color: rgb(224, 90, 17);
+    text-align: center;
+}
+table,th,td{
+    
+    text-align: center;
+    width: 1500px;
+    border: 2px solid rgb(23, 227, 179);
+}
+form{
+    font-size-adjust: large;
+    text-align: center;
+}
+button{
+    color: rgb(241, 227, 225);
+    background-color: #090909;
+    
+}

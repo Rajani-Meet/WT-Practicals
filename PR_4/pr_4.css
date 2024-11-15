@@ -1,0 +1,42 @@
+.content{
+    width: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: rgb(91, 17, 228);
+    align-content: center;
+    text-align: center;
+    height: 3cm;
+}
+nav a{
+    color: rgb(17, 228, 236);
+    margin: 2%;
+    text-decoration: none;
+}
+article{
+    background-color: rgb(17, 228, 236);
+    width: 50%;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+aside{
+    background: rgb(86, 250, 228);
+    border: 1px solid black;
+    padding: 2%;
+    width: 30%;
+    position: absolute;
+    height: 50%;
+    left: 60%;
+    bottom: 20%;
+}
+footer{
+    background-color: rgb(91, 17, 228);
+    text-align: center;
+    color: white;
+    align-items: baseline;
+}

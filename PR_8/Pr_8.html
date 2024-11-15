@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Photo Gallery</title>
+  <style>
+    .heading{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            color: gold;
+        }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+ 
+  .gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease,opacity 0.1s;
+    border-radius: 50px;
+  }
+  
+  .gallery img:hover {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+</style>
+  
+</head>
+<body bgcolor="black">
+    <div class="heading">
+        <h1>Photo Gallary</h1>
+    </div>
+  <div class="gallery">
+    <img src="img/download.jpeg" alt="Image 1">
+    <img src="img/download1.jpeg" alt="Image 2">
+    <img src="img/download2.jpeg" alt="Image 3">
+    <img src="img/download1.jpeg" alt="Image 4">
+    <img src="img/download2.jpeg" alt="Image 5">
+    <img src="img/download.jpeg" alt="Image 6">
+   
+  </div>
+</body>
+</html>

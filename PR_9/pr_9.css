@@ -1,0 +1,58 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+.hover-button {
+    padding: 20px 40px; 
+    font-size: 24px; 
+    background-color: #1abc9c; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #4b16a0; 
+    transform: scale(1.2); 
+}
+
+
+.circular-motion {
+    width: 150px; 
+    height: 150px; 
+    background-color: #e74c3c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: circle 7s infinite linear;
+}
+
+@keyframes circle {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(250px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+.bouncing-ball {
+    width: 150px; 
+    height: 150px; 
+    background-color: #f39c12;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-500px); } 
+    60% { transform: translateY(-50px); }
+}
